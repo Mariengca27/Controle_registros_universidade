@@ -10,5 +10,23 @@ namespace ControleDeRegistros.Controllers
         {
             return View();
         }
+
+
+        public IActionResult CriarNovaMatricula()
+        {
+            return View();
+        }
+
+        public IActionResult EditarUmaMatricula (int id)
+        {
+            return View();
+        }
+
+        public IActionResult ApagarUmaMatricula (int id)
+        {
+            return View();
+        }
+
+
     }
 }
